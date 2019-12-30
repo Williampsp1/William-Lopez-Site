@@ -47,7 +47,7 @@ img{
     z-index: -1;
   
   
-  background: rgb(2,0,36);
+  background-color: rgb(2,0,36);
 background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(1,136,163,1) 100%);
   
 }
