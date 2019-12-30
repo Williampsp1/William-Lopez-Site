@@ -16,18 +16,21 @@ body {
     background-color: rgb(13, 13, 80)
   }
 .top-container {
- top:30%;
+ 
 left: 0;
 right: 0;
-width: 100%;
+top:25%;
+padding-bottom: 3rem;
 position: absolute;
   
 }
 .link{
+
   position: absolute;
-  bottom:0;
-  left: 0;
-  right: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+  
 }
 img{
   width: 4rem;
