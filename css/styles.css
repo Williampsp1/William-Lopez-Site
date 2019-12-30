@@ -13,7 +13,9 @@ body {
     overflow: hidden
   }
 
-  
+  .dark{
+    background-color: rgb(13, 13, 80)
+  }
 .top-container {
  top:30%;
 left: 0;
@@ -34,9 +36,7 @@ img{
 .copyright{
   margin: 5px auto;
 }
-.footer-link{
-  
-}
+
 #particles-js{
   
  position: absolute;
@@ -100,19 +100,7 @@ video{
  height: 50%;
 
 }
-@media (max-width: 750px) {
-  
-  video{
-  width: 100%;
-  height: 100%;
-  }
-  h1{
-    font-size: 5rem;
-  }
-  h2{
-    font-size: 2rem;
-  }
-}
+
 @media only screen and (orientation: portrait) and (max-device-width:1080px) {
   h1{
       font-size:11.5vw
