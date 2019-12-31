@@ -25,7 +25,7 @@ body {
   left: 0;
   right: 0;
   top: 25%;
-
+padding-bottom: 5rem;
   position: absolute;
 }
 .link {
@@ -89,7 +89,15 @@ video {
     font-size: 5vw;
   }
 }
+@media only screen and (min-width: 896px) and (orientation: landscape) { /* Your Styles... */ 
+  h1 {
+    font-size: 3.5rem;
+  }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+}
 @media only screen and (orientation: landscape) and (max-device-height: 720px) {
   h1 {
     font-size: 3.5rem;
