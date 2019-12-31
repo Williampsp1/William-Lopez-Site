@@ -1,0 +1,116 @@
+html {
+  overflow: hidden;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dark {
+  background-color: rgb(13, 13, 80);
+}
+.top-container {
+  left: 0;
+  right: 0;
+  top: 25%;
+padding-bottom: 5rem;
+  position: absolute;
+}
+.link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+img {
+  width: 4rem;
+}
+.copyright {
+  margin: 5px auto;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+
+  background-color: rgb(2, 0, 36);
+  background: linear-gradient(
+    160deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(1, 136, 163, 1) 100%
+  );
+}
+h1 {
+  color: #b2dffb;
+
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 5.625em;
+}
+h2 {
+  color: #b2dffb;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+video {
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (orientation: portrait) and (max-device-width: 1080px) {
+  h1 {
+    font-size: 11.5vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 896px) and (orientation: landscape) { /* Your Styles... */ 
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (orientation: landscape) and (max-device-height: 720px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+.web {
+  height: 300px;
+  width: 300px;
+}
+a {
+  color: #42dee1;
+}
