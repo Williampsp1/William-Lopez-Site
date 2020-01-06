@@ -95,7 +95,7 @@ h3{
 
 @media only screen and (orientation: portrait) and (max-device-width: 1080px) {
   h1 {
-    font-size: 11.5vw;
+    font-size: 11vw;
   }
 
   h2 {
