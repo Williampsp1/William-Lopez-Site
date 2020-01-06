@@ -95,9 +95,9 @@ h2 {
     font-size: 5vw;
   }
 }
-@media only screen and (min-width: 896px) and (orientation: landscape) { 
+@media only screen and (max-width: 896px) and (orientation: landscape) { 
   h1 {
-    font-size: 1rem;
+    font-size: 3.5rem;
   }
 
   h2 {
@@ -105,7 +105,7 @@ h2 {
   }/* Your Styles... */ }
 @media only screen and (orientation: landscape) and (max-device-height: 720px) {
   h1 {
-    font-size: 1rem;
+    font-size: 3.5rem;
   }
 
   h2 {
